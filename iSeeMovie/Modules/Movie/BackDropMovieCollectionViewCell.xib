@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BaseCollectionViewCell" id="gTV-IL-0wX" customClass="BackDropMovieCollectionViewCell" customModule="iSeeMovie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Md8-HM-dC5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Rej-A8-yqd">
+                        <rect key="frame" x="50" y="155.5" width="42" height="39.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQw-0e-5Cc">
+                                <rect key="frame" x="0.0" y="0.0" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dL3-IW-Uwg">
+                                <rect key="frame" x="0.0" y="22.5" width="42" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Md8-HM-dC5" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="Mdy-gG-0FS"/>
+                <constraint firstItem="Md8-HM-dC5" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="RoG-Os-Lo7"/>
+                <constraint firstItem="Md8-HM-dC5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="bx5-Oj-6yc"/>
+                <constraint firstItem="Md8-HM-dC5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gd2-gw-6ct"/>
+                <constraint firstAttribute="bottom" secondItem="Rej-A8-yqd" secondAttribute="bottom" constant="5" id="sth-52-MYt"/>
+                <constraint firstItem="Rej-A8-yqd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="50" id="wwZ-wp-4Xp"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="movieImageView" destination="Md8-HM-dC5" id="v2m-35-vxk"/>
+                <outlet property="releaseDate" destination="dL3-IW-Uwg" id="YyW-mE-CT6"/>
+                <outlet property="title" destination="VQw-0e-5Cc" id="eqE-mI-fQa"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

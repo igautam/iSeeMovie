@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Release-iphoneos/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Pods.build/Release-iphoneos/AlamofireNetworkActivityIndicator.build/unextended-module.modulemap',
+    }]
+  }]
+}

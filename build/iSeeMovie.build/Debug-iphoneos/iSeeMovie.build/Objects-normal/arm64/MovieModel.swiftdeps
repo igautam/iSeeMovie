@@ -1,0 +1,418 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MovieModel"
+- "VideoCollection"
+- "ProductionCompanies"
+- "ProductionCountry"
+- "Language"
+- "MovieCredit"
+- "Crew"
+- "Cast"
+provides-nominal:
+- "9iSeeMovie0B5ModelV"
+- "9iSeeMovie15VideoCollectionV"
+- "9iSeeMovie19ProductionCompaniesV"
+- "9iSeeMovie17ProductionCountryV"
+- "9iSeeMovie8LanguageV"
+- "9iSeeMovie0B6CreditV"
+- "9iSeeMovie4CrewV"
+- "9iSeeMovie4CastV"
+provides-member:
+- ["9iSeeMovie0B5ModelV", ""]
+- ["9iSeeMovie15VideoCollectionV", ""]
+- ["9iSeeMovie19ProductionCompaniesV", ""]
+- ["9iSeeMovie17ProductionCountryV", ""]
+- ["9iSeeMovie8LanguageV", ""]
+- ["9iSeeMovie0B6CreditV", ""]
+- ["9iSeeMovie4CrewV", ""]
+- ["9iSeeMovie4CastV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "<-"
+- "Bool"
+- "BooleanLiteralType"
+- "Cast"
+- "Crew"
+- "Int"
+- "Language"
+- "Map"
+- "Mappable"
+- "MovieCredit"
+- "MovieModel"
+- "ProductionCompanies"
+- "ProductionCountry"
+- "String"
+- "StringLiteralType"
+- "VideoCollection"
+depends-member:
+- ["12ObjectMapper12BaseMappableP", ""]
+- !private ["12ObjectMapper12BaseMappableP", "adult"]
+- !private ["12ObjectMapper12BaseMappableP", "backdropPath"]
+- !private ["12ObjectMapper12BaseMappableP", "backdrop_path"]
+- !private ["12ObjectMapper12BaseMappableP", "belongs_to_collection"]
+- !private ["12ObjectMapper12BaseMappableP", "budget"]
+- !private ["12ObjectMapper12BaseMappableP", "cast_id"]
+- !private ["12ObjectMapper12BaseMappableP", "casts"]
+- !private ["12ObjectMapper12BaseMappableP", "character"]
+- !private ["12ObjectMapper12BaseMappableP", "credit_id"]
+- !private ["12ObjectMapper12BaseMappableP", "crews"]
+- !private ["12ObjectMapper12BaseMappableP", "department"]
+- !private ["12ObjectMapper12BaseMappableP", "gender"]
+- !private ["12ObjectMapper12BaseMappableP", "genre_ids"]
+- !private ["12ObjectMapper12BaseMappableP", "homepage"]
+- !private ["12ObjectMapper12BaseMappableP", "id"]
+- !private ["12ObjectMapper12BaseMappableP", "imdb_id"]
+- ["12ObjectMapper12BaseMappableP", "init"]
+- !private ["12ObjectMapper12BaseMappableP", "isVideo"]
+- !private ["12ObjectMapper12BaseMappableP", "iso_3166_1"]
+- !private ["12ObjectMapper12BaseMappableP", "iso_639_1"]
+- !private ["12ObjectMapper12BaseMappableP", "job"]
+- !private ["12ObjectMapper12BaseMappableP", "logoPath"]
+- ["12ObjectMapper12BaseMappableP", "mapping"]
+- !private ["12ObjectMapper12BaseMappableP", "movieId"]
+- !private ["12ObjectMapper12BaseMappableP", "name"]
+- !private ["12ObjectMapper12BaseMappableP", "order"]
+- !private ["12ObjectMapper12BaseMappableP", "originCountry"]
+- !private ["12ObjectMapper12BaseMappableP", "original_language"]
+- !private ["12ObjectMapper12BaseMappableP", "original_title"]
+- !private ["12ObjectMapper12BaseMappableP", "overview"]
+- !private ["12ObjectMapper12BaseMappableP", "popularity"]
+- !private ["12ObjectMapper12BaseMappableP", "posterPath"]
+- !private ["12ObjectMapper12BaseMappableP", "poster_path"]
+- !private ["12ObjectMapper12BaseMappableP", "production_companies"]
+- !private ["12ObjectMapper12BaseMappableP", "production_countries"]
+- !private ["12ObjectMapper12BaseMappableP", "profile_path"]
+- !private ["12ObjectMapper12BaseMappableP", "release_date"]
+- !private ["12ObjectMapper12BaseMappableP", "revenue"]
+- !private ["12ObjectMapper12BaseMappableP", "runtime"]
+- !private ["12ObjectMapper12BaseMappableP", "spoken_languages"]
+- !private ["12ObjectMapper12BaseMappableP", "status"]
+- !private ["12ObjectMapper12BaseMappableP", "tagline"]
+- !private ["12ObjectMapper12BaseMappableP", "title"]
+- !private ["12ObjectMapper12BaseMappableP", "video"]
+- !private ["12ObjectMapper12BaseMappableP", "voteAverage"]
+- !private ["12ObjectMapper12BaseMappableP", "voteCount"]
+- ["SK", "init"]
+- ["SK", "init"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- ["9iSeeMovie4CastV", "Int"]
+- ["9iSeeMovie4CastV", "Map"]
+- ["9iSeeMovie4CastV", "String"]
+- ["9iSeeMovie4CastV", "cast_id"]
+- ["9iSeeMovie4CastV", "character"]
+- ["9iSeeMovie4CastV", "credit_id"]
+- ["9iSeeMovie4CastV", "deinit"]
+- ["9iSeeMovie4CastV", "gender"]
+- ["9iSeeMovie4CastV", "id"]
+- ["9iSeeMovie4CastV", "init"]
+- ["9iSeeMovie4CastV", "mapping"]
+- ["9iSeeMovie4CastV", "name"]
+- ["9iSeeMovie4CastV", "order"]
+- ["9iSeeMovie4CastV", "profile_path"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["9iSeeMovie4CrewV", "Int"]
+- ["9iSeeMovie4CrewV", "Map"]
+- ["9iSeeMovie4CrewV", "String"]
+- ["9iSeeMovie4CrewV", "credit_id"]
+- ["9iSeeMovie4CrewV", "deinit"]
+- ["9iSeeMovie4CrewV", "department"]
+- ["9iSeeMovie4CrewV", "gender"]
+- ["9iSeeMovie4CrewV", "id"]
+- ["9iSeeMovie4CrewV", "init"]
+- ["9iSeeMovie4CrewV", "job"]
+- ["9iSeeMovie4CrewV", "mapping"]
+- ["9iSeeMovie4CrewV", "name"]
+- ["9iSeeMovie4CrewV", "profile_path"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["Se", "init"]
+- ["Se", "init"]
+- ["SE", "init"]
+- ["SE", "init"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["9iSeeMovie8LanguageV", "Map"]
+- ["9iSeeMovie8LanguageV", "String"]
+- ["9iSeeMovie8LanguageV", "deinit"]
+- ["9iSeeMovie8LanguageV", "init"]
+- ["9iSeeMovie8LanguageV", "iso_639_1"]
+- ["9iSeeMovie8LanguageV", "mapping"]
+- ["9iSeeMovie8LanguageV", "name"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["12ObjectMapper3MapC", "subscript"]
+- ["12ObjectMapper8MappableP", ""]
+- !private ["12ObjectMapper8MappableP", "adult"]
+- !private ["12ObjectMapper8MappableP", "backdropPath"]
+- !private ["12ObjectMapper8MappableP", "backdrop_path"]
+- !private ["12ObjectMapper8MappableP", "belongs_to_collection"]
+- !private ["12ObjectMapper8MappableP", "budget"]
+- !private ["12ObjectMapper8MappableP", "cast_id"]
+- !private ["12ObjectMapper8MappableP", "casts"]
+- !private ["12ObjectMapper8MappableP", "character"]
+- !private ["12ObjectMapper8MappableP", "credit_id"]
+- !private ["12ObjectMapper8MappableP", "crews"]
+- !private ["12ObjectMapper8MappableP", "department"]
+- !private ["12ObjectMapper8MappableP", "gender"]
+- !private ["12ObjectMapper8MappableP", "genre_ids"]
+- !private ["12ObjectMapper8MappableP", "homepage"]
+- !private ["12ObjectMapper8MappableP", "id"]
+- !private ["12ObjectMapper8MappableP", "imdb_id"]
+- ["12ObjectMapper8MappableP", "init"]
+- !private ["12ObjectMapper8MappableP", "isVideo"]
+- !private ["12ObjectMapper8MappableP", "iso_3166_1"]
+- !private ["12ObjectMapper8MappableP", "iso_639_1"]
+- !private ["12ObjectMapper8MappableP", "job"]
+- !private ["12ObjectMapper8MappableP", "logoPath"]
+- ["12ObjectMapper8MappableP", "mapping"]
+- !private ["12ObjectMapper8MappableP", "movieId"]
+- !private ["12ObjectMapper8MappableP", "name"]
+- !private ["12ObjectMapper8MappableP", "order"]
+- !private ["12ObjectMapper8MappableP", "originCountry"]
+- !private ["12ObjectMapper8MappableP", "original_language"]
+- !private ["12ObjectMapper8MappableP", "original_title"]
+- !private ["12ObjectMapper8MappableP", "overview"]
+- !private ["12ObjectMapper8MappableP", "popularity"]
+- !private ["12ObjectMapper8MappableP", "posterPath"]
+- !private ["12ObjectMapper8MappableP", "poster_path"]
+- !private ["12ObjectMapper8MappableP", "production_companies"]
+- !private ["12ObjectMapper8MappableP", "production_countries"]
+- !private ["12ObjectMapper8MappableP", "profile_path"]
+- !private ["12ObjectMapper8MappableP", "release_date"]
+- !private ["12ObjectMapper8MappableP", "revenue"]
+- !private ["12ObjectMapper8MappableP", "runtime"]
+- !private ["12ObjectMapper8MappableP", "spoken_languages"]
+- !private ["12ObjectMapper8MappableP", "status"]
+- !private ["12ObjectMapper8MappableP", "tagline"]
+- !private ["12ObjectMapper8MappableP", "title"]
+- !private ["12ObjectMapper8MappableP", "video"]
+- !private ["12ObjectMapper8MappableP", "voteAverage"]
+- !private ["12ObjectMapper8MappableP", "voteCount"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["9iSeeMovie0B6CreditV", "Cast"]
+- ["9iSeeMovie0B6CreditV", "Crew"]
+- ["9iSeeMovie0B6CreditV", "Map"]
+- ["9iSeeMovie0B6CreditV", "String"]
+- ["9iSeeMovie0B6CreditV", "casts"]
+- ["9iSeeMovie0B6CreditV", "crews"]
+- ["9iSeeMovie0B6CreditV", "deinit"]
+- ["9iSeeMovie0B6CreditV", "init"]
+- ["9iSeeMovie0B6CreditV", "mapping"]
+- ["9iSeeMovie0B6CreditV", "movieId"]
+- ["9iSeeMovie0B5ModelV", "Bool"]
+- ["9iSeeMovie0B5ModelV", "Int"]
+- ["9iSeeMovie0B5ModelV", "Language"]
+- ["9iSeeMovie0B5ModelV", "Map"]
+- ["9iSeeMovie0B5ModelV", "ProductionCompanies"]
+- ["9iSeeMovie0B5ModelV", "ProductionCountry"]
+- ["9iSeeMovie0B5ModelV", "String"]
+- ["9iSeeMovie0B5ModelV", "VideoCollection"]
+- ["9iSeeMovie0B5ModelV", "adult"]
+- ["9iSeeMovie0B5ModelV", "backdrop_path"]
+- ["9iSeeMovie0B5ModelV", "belongs_to_collection"]
+- ["9iSeeMovie0B5ModelV", "budget"]
+- ["9iSeeMovie0B5ModelV", "deinit"]
+- ["9iSeeMovie0B5ModelV", "genre_ids"]
+- ["9iSeeMovie0B5ModelV", "homepage"]
+- ["9iSeeMovie0B5ModelV", "id"]
+- ["9iSeeMovie0B5ModelV", "imdb_id"]
+- ["9iSeeMovie0B5ModelV", "init"]
+- ["9iSeeMovie0B5ModelV", "isPostre"]
+- ["9iSeeMovie0B5ModelV", "isVideo"]
+- ["9iSeeMovie0B5ModelV", "mapping"]
+- ["9iSeeMovie0B5ModelV", "original_language"]
+- ["9iSeeMovie0B5ModelV", "original_title"]
+- ["9iSeeMovie0B5ModelV", "overview"]
+- ["9iSeeMovie0B5ModelV", "popularity"]
+- ["9iSeeMovie0B5ModelV", "poster_path"]
+- ["9iSeeMovie0B5ModelV", "production_companies"]
+- ["9iSeeMovie0B5ModelV", "production_countries"]
+- ["9iSeeMovie0B5ModelV", "release_date"]
+- ["9iSeeMovie0B5ModelV", "revenue"]
+- ["9iSeeMovie0B5ModelV", "runtime"]
+- ["9iSeeMovie0B5ModelV", "spoken_languages"]
+- ["9iSeeMovie0B5ModelV", "status"]
+- ["9iSeeMovie0B5ModelV", "tagline"]
+- ["9iSeeMovie0B5ModelV", "title"]
+- ["9iSeeMovie0B5ModelV", "video"]
+- ["9iSeeMovie0B5ModelV", "voteAverage"]
+- ["9iSeeMovie0B5ModelV", "voteCount"]
+- ["9iSeeMovie19ProductionCompaniesV", "Int"]
+- ["9iSeeMovie19ProductionCompaniesV", "Map"]
+- ["9iSeeMovie19ProductionCompaniesV", "String"]
+- ["9iSeeMovie19ProductionCompaniesV", "deinit"]
+- ["9iSeeMovie19ProductionCompaniesV", "id"]
+- ["9iSeeMovie19ProductionCompaniesV", "init"]
+- ["9iSeeMovie19ProductionCompaniesV", "logoPath"]
+- ["9iSeeMovie19ProductionCompaniesV", "mapping"]
+- ["9iSeeMovie19ProductionCompaniesV", "name"]
+- ["9iSeeMovie19ProductionCompaniesV", "originCountry"]
+- ["9iSeeMovie17ProductionCountryV", "Map"]
+- ["9iSeeMovie17ProductionCountryV", "String"]
+- ["9iSeeMovie17ProductionCountryV", "deinit"]
+- ["9iSeeMovie17ProductionCountryV", "init"]
+- ["9iSeeMovie17ProductionCountryV", "iso_3166_1"]
+- ["9iSeeMovie17ProductionCountryV", "mapping"]
+- ["9iSeeMovie17ProductionCountryV", "name"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["ST", "init"]
+- ["ST", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9iSeeMovie15VideoCollectionV", "Int"]
+- ["9iSeeMovie15VideoCollectionV", "Map"]
+- ["9iSeeMovie15VideoCollectionV", "String"]
+- ["9iSeeMovie15VideoCollectionV", "backdropPath"]
+- ["9iSeeMovie15VideoCollectionV", "deinit"]
+- ["9iSeeMovie15VideoCollectionV", "id"]
+- ["9iSeeMovie15VideoCollectionV", "init"]
+- ["9iSeeMovie15VideoCollectionV", "mapping"]
+- ["9iSeeMovie15VideoCollectionV", "name"]
+- ["9iSeeMovie15VideoCollectionV", "posterPath"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "12ObjectMapper12BaseMappableP"
+- "SK"
+- "s7CVarArgP"
+- "9iSeeMovie4CastV"
+- "Sl"
+- "SL"
+- "9iSeeMovie4CrewV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "9iSeeMovie8LanguageV"
+- "s25LosslessStringConvertibleP"
+- !private "12ObjectMapper3MapC"
+- "12ObjectMapper8MappableP"
+- "s10MirrorPathP"
+- "9iSeeMovie0B6CreditV"
+- "9iSeeMovie0B5ModelV"
+- "9iSeeMovie19ProductionCompaniesV"
+- "9iSeeMovie17ProductionCountryV"
+- "Sm"
+- "ST"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "9Alamofire14URLConvertibleP"
+- "9iSeeMovie15VideoCollectionV"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/arm64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Modules/AlamofireNetworkActivityIndicator.swiftmodule/arm64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Modules/PromiseKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Headers/AlamofireNetworkActivityIndicator-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/PromiseKit-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/fwd.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/NSTask+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/NSURLSession+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/UIViewController+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/NSNotificationCenter+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/UIView+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/PMKFoundation.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Headers/AlamofireNetworkActivityIndicator-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/PMKUIKit.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "39f12f0655143b30e3e822a9d6a4e6ba"

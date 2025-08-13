@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5mu-iS-O6V">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="CcW-qA-aMr">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="tX9-Rq-q77" customClass="LoginViewController" customModule="iSeeMovies" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jzK-09-4oC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFf-4p-g5W">
+                                <rect key="frame" x="112.5" y="368.5" width="150" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="UGq-d7-Lgh"/>
+                                </constraints>
+                                <state key="normal" title="Login as Guest User"/>
+                                <connections>
+                                    <action selector="loginAsGuest:" destination="tX9-Rq-q77" eventType="touchUpInside" id="Rf9-6w-6z4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sd0-jZ-FRl">
+                                <rect key="frame" x="112.5" y="268.5" width="150" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="ApB-UO-wPG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <state key="normal" title="Login using TMDB"/>
+                                <connections>
+                                    <action selector="loginUsingTMDB:" destination="tX9-Rq-q77" eventType="touchUpInside" id="thh-KV-GFL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90172430920000002" green="0.90172430920000002" blue="0.90172430920000002" alpha="0.92053510270000005" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Sd0-jZ-FRl" firstAttribute="centerX" secondItem="jzK-09-4oC" secondAttribute="centerX" id="Cm2-08-RoH"/>
+                            <constraint firstItem="ZFf-4p-g5W" firstAttribute="centerX" secondItem="jzK-09-4oC" secondAttribute="centerX" id="XED-Zb-vv4"/>
+                            <constraint firstItem="Sd0-jZ-FRl" firstAttribute="centerY" secondItem="jzK-09-4oC" secondAttribute="centerY" constant="-50" id="u4Y-yZ-yJN"/>
+                            <constraint firstItem="ZFf-4p-g5W" firstAttribute="centerY" secondItem="jzK-09-4oC" secondAttribute="centerY" constant="50" id="wmf-UN-L9S"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DeI-f2-0KU"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BFh-hO-z3f">
+                        <barButtonItem key="rightBarButtonItem" title="Dismiss" id="ZYl-AC-LNp">
+                            <connections>
+                                <action selector="dismissViewController:" destination="tX9-Rq-q77" id="HBL-AD-hw1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="odB-YW-mJg" kind="show" identifier="showTMDBWebView" id="G04-72-Uhz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aet-Sc-Dq1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028" y="-834.33283358320841"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="sh2-kg-ylY">
+            <objects>
+                <viewController storyboardIdentifier="TMDBWebViewController" id="odB-YW-mJg" customClass="TMDBWebViewController" customModule="iSeeMovies" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cO6-V1-qOV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Upv-Ce-ECH">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="76W-S5-Ht0" firstAttribute="bottom" secondItem="Upv-Ce-ECH" secondAttribute="bottom" id="0gI-84-zII"/>
+                            <constraint firstItem="Upv-Ce-ECH" firstAttribute="top" secondItem="76W-S5-Ht0" secondAttribute="top" id="HCZ-1B-UH5"/>
+                            <constraint firstItem="Upv-Ce-ECH" firstAttribute="leading" secondItem="76W-S5-Ht0" secondAttribute="leading" id="lKE-N9-udV"/>
+                            <constraint firstItem="76W-S5-Ht0" firstAttribute="trailing" secondItem="Upv-Ce-ECH" secondAttribute="trailing" id="po0-Ir-Fcb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="76W-S5-Ht0"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="Upv-Ce-ECH" id="Yq9-rV-NQf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uRH-pq-mQg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2110" y="-834"/>
+        </scene>
+        <!--My Account-->
+        <scene sceneID="4ZC-cr-rfs">
+            <objects>
+                <viewController id="5mu-iS-O6V" customClass="AccountViewController" customModule="iSeeMovies" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lhR-Mi-z7M">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="WGQ-Pm-7hB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My Account" id="men-rd-v4p"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kT2-jP-cXS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-207" y="-27"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="RtU-Lf-mjj">
+            <objects>
+                <navigationController storyboardIdentifier="LoginNavigationViewController" automaticallyAdjustsScrollViewInsets="NO" id="H8q-JL-y7F" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jz2-Mc-UWH">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tX9-Rq-q77" kind="relationship" relationship="rootViewController" id="qzT-EA-rPJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eUl-7a-UGE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="88.799999999999997" y="-834.33283358320841"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "048c1a6cad675e943e6d9df861de13db"
+build_time: [1538033325, 679976000]
+inputs:
+  "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift": [1531256654, 0]

@@ -1,0 +1,334 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkActivityIndicatorManager"
+provides-nominal:
+- "33AlamofireNetworkActivityIndicator0bcD7ManagerC"
+provides-member:
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", ""]
+provides-dynamic-lookup:
+- "completionDelayTimerFired"
+- "networkRequestDidComplete"
+- "networkRequestDidStart"
+- "startDelayTimerFired"
+depends-top-level:
+- !private "!="
+- !private "+="
+- !private "-="
+- "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "DispatchQueue"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "NSLock"
+- "NetworkActivityIndicatorManager"
+- !private "Notification"
+- !private "NotificationCenter"
+- !private "RunLoop"
+- "TimeInterval"
+- "Timer"
+- !private "UIApplication"
+- "Void"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "default"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "invalidate"]
+- !private ["s7CVarArgP", "isNetworkActivityIndicatorVisible"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "removeObserver"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidate"]
+- !private ["s28CustomDebugStringConvertibleP", "isNetworkActivityIndicatorVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "Name"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "invalidate"]
+- !private ["s23CustomStringConvertibleP", "isNetworkActivityIndicatorVisible"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SQ", "Name"]
+- !private ["SQ", "Task"]
+- !private ["SQ", "UITrackingRunLoopMode"]
+- !private ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "active"]
+- !private ["SQ", "add"]
+- !private ["SQ", "addObserver"]
+- !private ["SQ", "async"]
+- !private ["SQ", "commonModes"]
+- !private ["SQ", "default"]
+- ["SQ", "delayingCompletion"]
+- ["SQ", "delayingStart"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "invalidate"]
+- !private ["SQ", "isNetworkActivityIndicatorVisible"]
+- !private ["SQ", "lock"]
+- !private ["SQ", "main"]
+- ["SQ", "notActive"]
+- !private ["SQ", "removeObserver"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "unlock"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", "Name"]
+- !private ["SH", "Task"]
+- !private ["SH", "UITrackingRunLoopMode"]
+- !private ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "active"]
+- !private ["SH", "add"]
+- !private ["SH", "addObserver"]
+- !private ["SH", "async"]
+- !private ["SH", "commonModes"]
+- !private ["SH", "default"]
+- ["SH", "delayingCompletion"]
+- ["SH", "delayingStart"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "invalidate"]
+- !private ["SH", "isNetworkActivityIndicatorVisible"]
+- !private ["SH", "lock"]
+- !private ["SH", "main"]
+- ["SH", "notActive"]
+- !private ["SH", "removeObserver"]
+- !private ["SH", "shared"]
+- !private ["SH", "unlock"]
+- !private ["s6HasherV", "combine"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So13NSRunLoopModea", "UITrackingRunLoopMode"]
+- !private ["So13NSRunLoopModea", "commonModes"]
+- ["So6NSLockC", "init"]
+- !private ["So6NSLockC", "lock"]
+- !private ["So6NSLockC", "unlock"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- !private ["So8NSObjectC", "add"]
+- !private ["So8NSObjectC", "addObserver"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "invalidate"]
+- !private ["So8NSObjectC", "isNetworkActivityIndicatorVisible"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "removeObserver"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "unlock"]
+- !private ["So8NSObjectP", "add"]
+- !private ["So8NSObjectP", "addObserver"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "default"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "invalidate"]
+- !private ["So8NSObjectP", "isNetworkActivityIndicatorVisible"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "removeObserver"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "unlock"]
+- !private ["So18NSNotificationNamea", "Task"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "ActivityIndicatorState"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "Bool"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "DispatchQueue"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "Int"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "NSLock"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "NetworkActivityIndicatorManager"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "Notification"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "NotificationCenter"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "RunLoop"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "TimeInterval"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "Timer"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "UIApplication"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "Void"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "activityCount"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "activityIndicatorState"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "completionDelay"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "completionDelayTimer"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "completionDelayTimerFired"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "decrementActivityCount"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "deinit"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "enabled"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "incrementActivityCount"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "init"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "invalidateCompletionDelayTimer"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "invalidateStartDelayTimer"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "isEnabled"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "isNetworkActivityIndicatorVisible"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "lock"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "networkActivityIndicatorVisibilityChanged"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "networkRequestDidComplete"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "networkRequestDidStart"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "registerForNotifications"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "scheduleCompletionDelayTimer"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "scheduleStartDelayTimer"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "shared"]
+- ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "startDelay"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "startDelayTimer"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "startDelayTimerFired"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "unregisterForNotifications"]
+- !private ["33AlamofireNetworkActivityIndicator0bcD7ManagerC", "updateActivityIndicatorStateForNetworkActivityChange"]
+- !private ["10Foundation12NotificationV", "Name"]
+- !private ["So20NSNotificationCenterC", "addObserver"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["So20NSNotificationCenterC", "removeObserver"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["SY", "Task"]
+- !private ["SY", "UITrackingRunLoopMode"]
+- !private ["SY", "commonModes"]
+- !private ["10Foundation20ReferenceConvertibleP", "Name"]
+- !private ["So9NSRunLoopC", "add"]
+- !private ["So9NSRunLoopC", "main"]
+- !private ["So18NSNotificationNamea9AlamofireE4TaskV", "DidComplete"]
+- !private ["So18NSNotificationNamea9AlamofireE4TaskV", "DidResume"]
+- !private ["So18NSNotificationNamea9AlamofireE4TaskV", "DidSuspend"]
+- !private ["So7NSTimerC", "init"]
+- !private ["So7NSTimerC", "invalidate"]
+- !private ["So13UIApplicationC", "isNetworkActivityIndicatorVisible"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "isNetworkActivityIndicatorVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So11UIResponderC", "isNetworkActivityIndicatorVisible"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "isNetworkActivityIndicatorVisible"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So23UIUserActivityRestoringP", "isNetworkActivityIndicatorVisible"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Task"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "UITrackingRunLoopMode"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "commonModes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isNetworkActivityIndicatorVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- !private ["s21_ObjectiveCBridgeableP", "Name"]
+- !private ["s21_ObjectiveCBridgeableP", "Task"]
+- !private ["s21_ObjectiveCBridgeableP", "UITrackingRunLoopMode"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "commonModes"]
+- !private ["s20_SwiftNewtypeWrapperP", "Task"]
+- !private ["s20_SwiftNewtypeWrapperP", "UITrackingRunLoopMode"]
+- !private ["s20_SwiftNewtypeWrapperP", "commonModes"]
+depends-nominal:
+- !private "Sb"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "s25LosslessStringConvertibleP"
+- !private "So13NSRunLoopModea"
+- "So6NSLockC"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So18NSNotificationNamea"
+- "33AlamofireNetworkActivityIndicator0bcD7ManagerC"
+- !private "10Foundation12NotificationV"
+- !private "So20NSNotificationCenterC"
+- !private "So9OS_objectC"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So9NSRunLoopC"
+- !private "So18NSNotificationNamea9AlamofireE4TaskV"
+- !private "So7NSTimerC"
+- !private "So13UIApplicationC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So23UIUserActivityRestoringP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/Target Support Files/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Pods.build/Debug-iphoneos/AlamofireNetworkActivityIndicator.build/unextended-module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8af4d0edf14a22af2d6fe9bbe4286130"

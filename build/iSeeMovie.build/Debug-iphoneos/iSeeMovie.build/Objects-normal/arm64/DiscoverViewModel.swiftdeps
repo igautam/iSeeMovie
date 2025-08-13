@@ -1,0 +1,358 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DiscoverMovieCellConfig"
+- "DiscoverTopMovieCellConfig"
+- "DiscoverTVCellConfig"
+- "DiscoverTopTVCellConfig"
+- "DiscoverViewModel"
+provides-nominal:
+- "9iSeeMovie17DiscoverViewModelC"
+provides-member:
+- ["9iSeeMovie17DiscoverViewModelC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "APIManager"
+- !private "Array"
+- "AssignmentPrecedence"
+- "CellConfigurator"
+- !private "Dictionary"
+- "DiscoverMovieCellConfig"
+- "DiscoverMovieTableViewCell"
+- "DiscoverMovieTopTableViewCell"
+- "DiscoverTVCellConfig"
+- "DiscoverTVTableViewCell"
+- "DiscoverTVTopTableViewCell"
+- "DiscoverTopMovieCellConfig"
+- "DiscoverTopTVCellConfig"
+- "DiscoverViewModel"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MovieAPIType"
+- "MovieCollectionViewModel"
+- "MovieModel"
+- "PaginatedResponse"
+- !private "Promise"
+- "String"
+- !private "StringLiteralType"
+- !private "TVAPIType"
+- "TVCollectionViewModel"
+- "TableCellConfigurator"
+- "Void"
+- !private "print"
+depends-member:
+- !private ["9iSeeMovie10APIManagerC", "discoverMovies"]
+- !private ["9iSeeMovie10APIManagerC", "getMovieBasedOnTypes"]
+- !private ["9iSeeMovie10APIManagerC", "sharedInstance"]
+- !private ["Sa", "append"]
+- !private ["Sa", "removeAll"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "removeAll"]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "removeAll"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["10PromiseKit10CatchMixinP", "catch"]
+- !private ["10PromiseKit10CatchMixinP", "done"]
+- !private ["10PromiseKit10CatchMixinP", "then"]
+- !private ["9iSeeMovie16CellConfiguratorP", "init"]
+- !private ["9iSeeMovie16CellConfiguratorP", "init"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "removeAll"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "catch"]
+- !private ["s28CustomDebugStringConvertibleP", "done"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "then"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "catch"]
+- !private ["s23CustomStringConvertibleP", "done"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "then"]
+- !private ["Se", "append"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "removeAll"]
+- ["9iSeeMovie08DiscoverB13TableViewCellC", "deinit"]
+- ["9iSeeMovie08DiscoverB16TopTableViewCellC", "deinit"]
+- ["9iSeeMovie23DiscoverTVTableViewCellC", "deinit"]
+- ["9iSeeMovie26DiscoverTVTopTableViewCellC", "deinit"]
+- !private ["9iSeeMovie17DiscoverViewModelC", "APIManager"]
+- ["9iSeeMovie17DiscoverViewModelC", "CellConfigurator"]
+- !private ["9iSeeMovie17DiscoverViewModelC", "DiscoverMovieCellConfig"]
+- !private ["9iSeeMovie17DiscoverViewModelC", "DiscoverTVCellConfig"]
+- !private ["9iSeeMovie17DiscoverViewModelC", "DiscoverTopMovieCellConfig"]
+- !private ["9iSeeMovie17DiscoverViewModelC", "DiscoverTopTVCellConfig"]
+- ["9iSeeMovie17DiscoverViewModelC", "MovieAPIType"]
+- !private ["9iSeeMovie17DiscoverViewModelC", "MovieCollectionViewModel"]
+- ["9iSeeMovie17DiscoverViewModelC", "MovieModel"]
+- ["9iSeeMovie17DiscoverViewModelC", "PaginatedResponse"]
+- !private ["9iSeeMovie17DiscoverViewModelC", "Promise"]
+- ["9iSeeMovie17DiscoverViewModelC", "String"]
+- !private ["9iSeeMovie17DiscoverViewModelC", "TVAPIType"]
+- !private ["9iSeeMovie17DiscoverViewModelC", "TVCollectionViewModel"]
+- ["9iSeeMovie17DiscoverViewModelC", "Void"]
+- ["9iSeeMovie17DiscoverViewModelC", "clearData"]
+- ["9iSeeMovie17DiscoverViewModelC", "deinit"]
+- ["9iSeeMovie17DiscoverViewModelC", "fetchMovieData"]
+- ["9iSeeMovie17DiscoverViewModelC", "fetchTVData"]
+- ["9iSeeMovie17DiscoverViewModelC", "init"]
+- ["9iSeeMovie17DiscoverViewModelC", "items"]
+- ["9iSeeMovie17DiscoverViewModelC", "paginatedResponse"]
+- !private ["9iSeeMovie17DiscoverViewModelC", "print"]
+- ["9iSeeMovie17DiscoverViewModelC", "saveModelWithResponse"]
+- !private ["SE", "append"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "removeAll"]
+- !private ["SQ", "AiringTodayTV"]
+- !private ["SQ", "Movies"]
+- !private ["SQ", "NowPlayingMovies"]
+- !private ["SQ", "OnTv"]
+- !private ["SQ", "PopularMovies"]
+- !private ["SQ", "PopularTV"]
+- !private ["SQ", "TV"]
+- !private ["SQ", "TopRatedMovies"]
+- !private ["SQ", "TopRatedTV"]
+- !private ["SQ", "UpComingMovies"]
+- !private ["SQ", "append"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "removeAll"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "AiringTodayTV"]
+- !private ["SH", "Movies"]
+- !private ["SH", "NowPlayingMovies"]
+- !private ["SH", "OnTv"]
+- !private ["SH", "PopularMovies"]
+- !private ["SH", "PopularTV"]
+- !private ["SH", "TV"]
+- !private ["SH", "TopRatedMovies"]
+- !private ["SH", "TopRatedTV"]
+- !private ["SH", "UpComingMovies"]
+- !private ["SH", "append"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "removeAll"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["9iSeeMovie0B7APITypeO", "Movies"]
+- !private ["9iSeeMovie0B7APITypeO", "NowPlayingMovies"]
+- !private ["9iSeeMovie0B7APITypeO", "PopularMovies"]
+- !private ["9iSeeMovie0B7APITypeO", "TopRatedMovies"]
+- !private ["9iSeeMovie0B7APITypeO", "UpComingMovies"]
+- !private ["9iSeeMovie0B19CollectionViewModelC", "init"]
+- ["9iSeeMovie0B5ModelV", "deinit"]
+- !private ["SM", "append"]
+- !private ["SM", "removeAll"]
+- !private ["10PromiseKit0A0C", "catch"]
+- !private ["10PromiseKit0A0C", "done"]
+- !private ["10PromiseKit0A0C", "then"]
+- !private ["Sk", "append"]
+- !private ["Sk", "removeAll"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "removeAll"]
+- !private ["SY", "AiringTodayTV"]
+- !private ["SY", "Movies"]
+- !private ["SY", "NowPlayingMovies"]
+- !private ["SY", "OnTv"]
+- !private ["SY", "PopularMovies"]
+- !private ["SY", "PopularTV"]
+- !private ["SY", "TV"]
+- !private ["SY", "TopRatedMovies"]
+- !private ["SY", "TopRatedTV"]
+- !private ["SY", "UpComingMovies"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "removeAll"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["9iSeeMovie9TVAPITypeO", "AiringTodayTV"]
+- !private ["9iSeeMovie9TVAPITypeO", "OnTv"]
+- !private ["9iSeeMovie9TVAPITypeO", "PopularTV"]
+- !private ["9iSeeMovie9TVAPITypeO", "TV"]
+- !private ["9iSeeMovie9TVAPITypeO", "TopRatedTV"]
+- !private ["9iSeeMovie21TVCollectionViewModelC", "init"]
+- !private ["9iSeeMovie21TableCellConfiguratorC", "deinit"]
+- !private ["9iSeeMovie21TableCellConfiguratorC", "init"]
+- !private ["9iSeeMovie21TableCellConfiguratorC", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10PromiseKit8ThenableP", "catch"]
+- !private ["10PromiseKit8ThenableP", "done"]
+- !private ["10PromiseKit8ThenableP", "then"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "9iSeeMovie10APIManagerC"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "10PromiseKit10CatchMixinP"
+- !private "9iSeeMovie16CellConfiguratorP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "9iSeeMovie08DiscoverB13TableViewCellC"
+- "9iSeeMovie08DiscoverB16TopTableViewCellC"
+- "9iSeeMovie23DiscoverTVTableViewCellC"
+- "9iSeeMovie26DiscoverTVTopTableViewCellC"
+- "9iSeeMovie17DiscoverViewModelC"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "9iSeeMovie0B7APITypeO"
+- !private "9iSeeMovie0B19CollectionViewModelC"
+- "9iSeeMovie0B5ModelV"
+- !private "SM"
+- !private "10PromiseKit0A0C"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "9iSeeMovie9TVAPITypeO"
+- !private "9iSeeMovie21TVCollectionViewModelC"
+- !private "9iSeeMovie21TableCellConfiguratorC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10PromiseKit8ThenableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/arm64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Modules/AlamofireNetworkActivityIndicator.swiftmodule/arm64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Modules/PromiseKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Headers/AlamofireNetworkActivityIndicator-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/PromiseKit-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/fwd.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/NSTask+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/NSURLSession+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/UIViewController+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/NSNotificationCenter+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/UIView+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/PMKFoundation.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Headers/AlamofireNetworkActivityIndicator-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/PMKUIKit.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cfe4837033287b16cb740bff4a425f2e"

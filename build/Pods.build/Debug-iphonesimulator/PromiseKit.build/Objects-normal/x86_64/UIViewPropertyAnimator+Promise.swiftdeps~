@@ -1,0 +1,108 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So22UIViewPropertyAnimatorC", ""]
+- ["So22UIViewPropertyAnimatorC", "startAnimation"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Guarantee"
+- "PMKNamespacer"
+- "UIViewAnimatingPosition"
+- "UIViewPropertyAnimator"
+depends-member:
+- !private ["s7CVarArgP", "Guarantee"]
+- !private ["s7CVarArgP", "addCompletion"]
+- !private ["s7CVarArgP", "startAnimation"]
+- !private ["s28CustomDebugStringConvertibleP", "Guarantee"]
+- !private ["s28CustomDebugStringConvertibleP", "addCompletion"]
+- !private ["s28CustomDebugStringConvertibleP", "startAnimation"]
+- !private ["s23CustomStringConvertibleP", "Guarantee"]
+- !private ["s23CustomStringConvertibleP", "addCompletion"]
+- !private ["s23CustomStringConvertibleP", "startAnimation"]
+- !private ["s9EquatableP", "Guarantee"]
+- !private ["s9EquatableP", "addCompletion"]
+- !private ["s9EquatableP", "startAnimation"]
+- !private ["10PromiseKit9GuaranteeC", "init"]
+- !private ["s8HashableP", "Guarantee"]
+- !private ["s8HashableP", "addCompletion"]
+- !private ["s8HashableP", "startAnimation"]
+- !private ["So9NSCopyingP", "Guarantee"]
+- !private ["So9NSCopyingP", "addCompletion"]
+- !private ["So9NSCopyingP", "startAnimation"]
+- ["So8NSObjectC", "Guarantee"]
+- ["So8NSObjectC", "PMKNamespacer"]
+- ["So8NSObjectC", "UIViewAnimatingPosition"]
+- !private ["So8NSObjectC", "addCompletion"]
+- ["So8NSObjectC", "startAnimation"]
+- !private ["So16NSObjectProtocolP", "Guarantee"]
+- !private ["So16NSObjectProtocolP", "addCompletion"]
+- !private ["So16NSObjectProtocolP", "startAnimation"]
+- !private ["10PromiseKit8ThenableP", "init"]
+- !private ["So15UIViewAnimatingP", "Guarantee"]
+- !private ["So15UIViewAnimatingP", "addCompletion"]
+- !private ["So15UIViewAnimatingP", "startAnimation"]
+- !private ["So25UIViewImplicitlyAnimatingP", "Guarantee"]
+- !private ["So25UIViewImplicitlyAnimatingP", "addCompletion"]
+- !private ["So25UIViewImplicitlyAnimatingP", "startAnimation"]
+- ["So22UIViewPropertyAnimatorC", "Guarantee"]
+- ["So22UIViewPropertyAnimatorC", "PMKNamespacer"]
+- ["So22UIViewPropertyAnimatorC", "UIViewAnimatingPosition"]
+- !private ["So22UIViewPropertyAnimatorC", "addCompletion"]
+- ["So22UIViewPropertyAnimatorC", "startAnimation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Guarantee"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addCompletion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startAnimation"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "10PromiseKit9GuaranteeC"
+- !private "s8HashableP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "10PromiseKit8ThenableP"
+- !private "So15UIViewAnimatingP"
+- !private "So25UIViewImplicitlyAnimatingP"
+- "So22UIViewPropertyAnimatorC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/Target Support Files/PromiseKit/PromiseKit-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Sources/fwd.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/Foundation/Sources/NSTask+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/UIKit/Sources/UIViewController+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/UIKit/Sources/UIView+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Sources/AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/Foundation/Sources/PMKFoundation.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/UIKit/Sources/PMKUIKit.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Sources/PromiseKit.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Pods.build/Debug-iphonesimulator/PromiseKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "49169dac457f7972184a986503333617"

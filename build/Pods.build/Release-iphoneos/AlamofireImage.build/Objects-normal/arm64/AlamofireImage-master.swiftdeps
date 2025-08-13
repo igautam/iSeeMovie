@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "c2f3435b4c8007ed7062135189b0ff5e"
+build_time: [1531826562, 583826000]
+inputs:
+  "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/AlamofireImage/Source/AFIError.swift": [9223372036, 854775807]
+  "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/AlamofireImage/Source/Image.swift": [9223372036, 854775807]
+  "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/AlamofireImage/Source/ImageCache.swift": [9223372036, 854775807]
+  "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/AlamofireImage/Source/ImageDownloader.swift": [9223372036, 854775807]
+  "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/AlamofireImage/Source/ImageFilter.swift": [9223372036, 854775807]
+  "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [9223372036, 854775807]
+  "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [9223372036, 854775807]
+  "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": [9223372036, 854775807]
+  "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [9223372036, 854775807]

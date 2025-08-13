@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "b90522d43c5ee773999e5bd279658939"
+build_time: [1538033326, 10782000]
+inputs:
+  "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/AlamofireNetworkActivityIndicator/Source/NetworkActivityIndicatorManager.swift": [1531256654, 0]

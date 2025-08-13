@@ -1,0 +1,450 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MovieCollectionViewCell"
+provides-nominal:
+- "9iSeeMovie0B18CollectionViewCellC"
+provides-member:
+- ["9iSeeMovie0B18CollectionViewCellC", ""]
+provides-dynamic-lookup:
+- "movieImageView"
+depends-top-level:
+- !private "=="
+- !private "BackdropSizes"
+- !private "ConfigurationManager"
+- "MovieCollectionViewCell"
+- "MovieModel"
+- !private "PosterSizes"
+- "UIImageView"
+- "ValueCollectionViewCell"
+depends-member:
+- !private ["9iSeeMovie13BackdropSizesO", "w300"]
+- !private ["12ObjectMapper12BaseMappableP", "backdrop_path"]
+- !private ["12ObjectMapper12BaseMappableP", "poster_path"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "BackdropSizes"]
+- !private ["So15CALayerDelegateP", "ConfigurationManager"]
+- !private ["So15CALayerDelegateP", "PosterSizes"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "movieImageView"]
+- !private ["So15CALayerDelegateP", "setBackdropImageWith"]
+- !private ["So15CALayerDelegateP", "setPosterImageWith"]
+- !private ["So15CALayerDelegateP", "value"]
+- !private ["s7CVarArgP", "BackdropSizes"]
+- !private ["s7CVarArgP", "ConfigurationManager"]
+- !private ["s7CVarArgP", "PosterSizes"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "movieImageView"]
+- !private ["s7CVarArgP", "setBackdropImageWith"]
+- !private ["s7CVarArgP", "setPosterImageWith"]
+- !private ["s7CVarArgP", "value"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["9iSeeMovie20ConfigurationManagerC", "getBackdropImageSize"]
+- !private ["9iSeeMovie20ConfigurationManagerC", "getPosterImageSize"]
+- !private ["9iSeeMovie20ConfigurationManagerC", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "BackdropSizes"]
+- !private ["s28CustomDebugStringConvertibleP", "ConfigurationManager"]
+- !private ["s28CustomDebugStringConvertibleP", "PosterSizes"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "movieImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "setBackdropImageWith"]
+- !private ["s28CustomDebugStringConvertibleP", "setPosterImageWith"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "BackdropSizes"]
+- !private ["s23CustomStringConvertibleP", "ConfigurationManager"]
+- !private ["s23CustomStringConvertibleP", "PosterSizes"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "movieImageView"]
+- !private ["s23CustomStringConvertibleP", "setBackdropImageWith"]
+- !private ["s23CustomStringConvertibleP", "setPosterImageWith"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "BackdropSizes"]
+- !private ["s9EquatableP", "ConfigurationManager"]
+- !private ["s9EquatableP", "PosterSizes"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "movieImageView"]
+- !private ["s9EquatableP", "setBackdropImageWith"]
+- !private ["s9EquatableP", "setPosterImageWith"]
+- !private ["s9EquatableP", "value"]
+- !private ["s9EquatableP", "w154"]
+- !private ["s9EquatableP", "w300"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "BackdropSizes"]
+- !private ["s8HashableP", "ConfigurationManager"]
+- !private ["s8HashableP", "PosterSizes"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "movieImageView"]
+- !private ["s8HashableP", "setBackdropImageWith"]
+- !private ["s8HashableP", "setPosterImageWith"]
+- !private ["s8HashableP", "value"]
+- !private ["s8HashableP", "w154"]
+- !private ["s8HashableP", "w300"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["12ObjectMapper8MappableP", "backdrop_path"]
+- !private ["12ObjectMapper8MappableP", "poster_path"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["9iSeeMovie0B18CollectionViewCellC", "BackdropSizes"]
+- !private ["9iSeeMovie0B18CollectionViewCellC", "ConfigurationManager"]
+- ["9iSeeMovie0B18CollectionViewCellC", "MovieModel"]
+- !private ["9iSeeMovie0B18CollectionViewCellC", "PosterSizes"]
+- ["9iSeeMovie0B18CollectionViewCellC", "UIImageView"]
+- ["9iSeeMovie0B18CollectionViewCellC", "deinit"]
+- ["9iSeeMovie0B18CollectionViewCellC", "init"]
+- ["9iSeeMovie0B18CollectionViewCellC", "movieImageView"]
+- ["9iSeeMovie0B18CollectionViewCellC", "value"]
+- !private ["9iSeeMovie0B5ModelV", "backdrop_path"]
+- !private ["9iSeeMovie0B5ModelV", "poster_path"]
+- !private ["So8NSCodingP", "BackdropSizes"]
+- !private ["So8NSCodingP", "ConfigurationManager"]
+- !private ["So8NSCodingP", "PosterSizes"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "movieImageView"]
+- !private ["So8NSCodingP", "setBackdropImageWith"]
+- !private ["So8NSCodingP", "setPosterImageWith"]
+- !private ["So8NSCodingP", "value"]
+- !private ["So8NSObjectC", "BackdropSizes"]
+- !private ["So8NSObjectC", "ConfigurationManager"]
+- ["So8NSObjectC", "MovieModel"]
+- !private ["So8NSObjectC", "PosterSizes"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "movieImageView"]
+- !private ["So8NSObjectC", "setBackdropImageWith"]
+- !private ["So8NSObjectC", "setPosterImageWith"]
+- ["So8NSObjectC", "value"]
+- !private ["So16NSObjectProtocolP", "BackdropSizes"]
+- !private ["So16NSObjectProtocolP", "ConfigurationManager"]
+- !private ["So16NSObjectProtocolP", "PosterSizes"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "movieImageView"]
+- !private ["So16NSObjectProtocolP", "setBackdropImageWith"]
+- !private ["So16NSObjectProtocolP", "setPosterImageWith"]
+- !private ["So16NSObjectProtocolP", "value"]
+- !private ["9iSeeMovie11PosterSizesO", "w154"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "w154"]
+- !private ["s16RawRepresentableP", "w300"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setBackdropImageWith"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setPosterImageWith"]
+- !private ["So29UIAccessibilityIdentificationP", "BackdropSizes"]
+- !private ["So29UIAccessibilityIdentificationP", "ConfigurationManager"]
+- !private ["So29UIAccessibilityIdentificationP", "PosterSizes"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "movieImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "setBackdropImageWith"]
+- !private ["So29UIAccessibilityIdentificationP", "setPosterImageWith"]
+- !private ["So29UIAccessibilityIdentificationP", "value"]
+- !private ["So12UIAppearanceP", "BackdropSizes"]
+- !private ["So12UIAppearanceP", "ConfigurationManager"]
+- !private ["So12UIAppearanceP", "PosterSizes"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "movieImageView"]
+- !private ["So12UIAppearanceP", "setBackdropImageWith"]
+- !private ["So12UIAppearanceP", "setPosterImageWith"]
+- !private ["So12UIAppearanceP", "value"]
+- !private ["So21UIAppearanceContainerP", "BackdropSizes"]
+- !private ["So21UIAppearanceContainerP", "ConfigurationManager"]
+- !private ["So21UIAppearanceContainerP", "PosterSizes"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "movieImageView"]
+- !private ["So21UIAppearanceContainerP", "setBackdropImageWith"]
+- !private ["So21UIAppearanceContainerP", "setPosterImageWith"]
+- !private ["So21UIAppearanceContainerP", "value"]
+- !private ["So24UICollectionReusableViewC", "BackdropSizes"]
+- !private ["So24UICollectionReusableViewC", "ConfigurationManager"]
+- ["So24UICollectionReusableViewC", "MovieModel"]
+- !private ["So24UICollectionReusableViewC", "PosterSizes"]
+- ["So24UICollectionReusableViewC", "UIImageView"]
+- ["So24UICollectionReusableViewC", "init"]
+- ["So24UICollectionReusableViewC", "movieImageView"]
+- ["So24UICollectionReusableViewC", "value"]
+- !private ["So20UICollectionViewCellC", "BackdropSizes"]
+- !private ["So20UICollectionViewCellC", "ConfigurationManager"]
+- ["So20UICollectionViewCellC", "MovieModel"]
+- !private ["So20UICollectionViewCellC", "PosterSizes"]
+- ["So20UICollectionViewCellC", "UIImageView"]
+- ["So20UICollectionViewCellC", "init"]
+- ["So20UICollectionViewCellC", "movieImageView"]
+- ["So20UICollectionViewCellC", "value"]
+- !private ["So17UICoordinateSpaceP", "BackdropSizes"]
+- !private ["So17UICoordinateSpaceP", "ConfigurationManager"]
+- !private ["So17UICoordinateSpaceP", "PosterSizes"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "movieImageView"]
+- !private ["So17UICoordinateSpaceP", "setBackdropImageWith"]
+- !private ["So17UICoordinateSpaceP", "setPosterImageWith"]
+- !private ["So17UICoordinateSpaceP", "value"]
+- !private ["So13UIDynamicItemP", "BackdropSizes"]
+- !private ["So13UIDynamicItemP", "ConfigurationManager"]
+- !private ["So13UIDynamicItemP", "PosterSizes"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "movieImageView"]
+- !private ["So13UIDynamicItemP", "setBackdropImageWith"]
+- !private ["So13UIDynamicItemP", "setPosterImageWith"]
+- !private ["So13UIDynamicItemP", "value"]
+- !private ["So18UIFocusEnvironmentP", "BackdropSizes"]
+- !private ["So18UIFocusEnvironmentP", "ConfigurationManager"]
+- !private ["So18UIFocusEnvironmentP", "PosterSizes"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "movieImageView"]
+- !private ["So18UIFocusEnvironmentP", "setBackdropImageWith"]
+- !private ["So18UIFocusEnvironmentP", "setPosterImageWith"]
+- !private ["So18UIFocusEnvironmentP", "value"]
+- !private ["So11UIFocusItemP", "BackdropSizes"]
+- !private ["So11UIFocusItemP", "ConfigurationManager"]
+- !private ["So11UIFocusItemP", "PosterSizes"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "movieImageView"]
+- !private ["So11UIFocusItemP", "setBackdropImageWith"]
+- !private ["So11UIFocusItemP", "setPosterImageWith"]
+- !private ["So11UIFocusItemP", "value"]
+- !private ["So11UIImageViewC", "setBackdropImageWith"]
+- !private ["So11UIImageViewC", "setPosterImageWith"]
+- !private ["So30UIPasteConfigurationSupportingP", "BackdropSizes"]
+- !private ["So30UIPasteConfigurationSupportingP", "ConfigurationManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "PosterSizes"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "movieImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "setBackdropImageWith"]
+- !private ["So30UIPasteConfigurationSupportingP", "setPosterImageWith"]
+- !private ["So30UIPasteConfigurationSupportingP", "value"]
+- !private ["So11UIResponderC", "BackdropSizes"]
+- !private ["So11UIResponderC", "ConfigurationManager"]
+- ["So11UIResponderC", "MovieModel"]
+- !private ["So11UIResponderC", "PosterSizes"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "movieImageView"]
+- !private ["So11UIResponderC", "setBackdropImageWith"]
+- !private ["So11UIResponderC", "setPosterImageWith"]
+- ["So11UIResponderC", "value"]
+- !private ["So30UIResponderStandardEditActionsP", "BackdropSizes"]
+- !private ["So30UIResponderStandardEditActionsP", "ConfigurationManager"]
+- !private ["So30UIResponderStandardEditActionsP", "PosterSizes"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "movieImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "setBackdropImageWith"]
+- !private ["So30UIResponderStandardEditActionsP", "setPosterImageWith"]
+- !private ["So30UIResponderStandardEditActionsP", "value"]
+- !private ["So18UITraitEnvironmentP", "BackdropSizes"]
+- !private ["So18UITraitEnvironmentP", "ConfigurationManager"]
+- !private ["So18UITraitEnvironmentP", "PosterSizes"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "movieImageView"]
+- !private ["So18UITraitEnvironmentP", "setBackdropImageWith"]
+- !private ["So18UITraitEnvironmentP", "setPosterImageWith"]
+- !private ["So18UITraitEnvironmentP", "value"]
+- !private ["So6UIViewC", "BackdropSizes"]
+- !private ["So6UIViewC", "ConfigurationManager"]
+- ["So6UIViewC", "MovieModel"]
+- !private ["So6UIViewC", "PosterSizes"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "movieImageView"]
+- !private ["So6UIViewC", "setBackdropImageWith"]
+- !private ["So6UIViewC", "setPosterImageWith"]
+- ["So6UIViewC", "value"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9iSeeMovie23ValueCollectionViewCellC", "BackdropSizes"]
+- !private ["9iSeeMovie23ValueCollectionViewCellC", "ConfigurationManager"]
+- ["9iSeeMovie23ValueCollectionViewCellC", "MovieModel"]
+- !private ["9iSeeMovie23ValueCollectionViewCellC", "PosterSizes"]
+- ["9iSeeMovie23ValueCollectionViewCellC", "UIImageView"]
+- ["9iSeeMovie23ValueCollectionViewCellC", ""]
+- ["9iSeeMovie23ValueCollectionViewCellC", "init"]
+- ["9iSeeMovie23ValueCollectionViewCellC", "movieImageView"]
+- ["9iSeeMovie23ValueCollectionViewCellC", "value"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "BackdropSizes"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "ConfigurationManager"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "PosterSizes"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "movieImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setBackdropImageWith"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setPosterImageWith"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "value"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BackdropSizes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ConfigurationManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PosterSizes"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "movieImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setBackdropImageWith"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setPosterImageWith"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "9iSeeMovie13BackdropSizesO"
+- !private "12ObjectMapper12BaseMappableP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "9iSeeMovie20ConfigurationManagerC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "12ObjectMapper8MappableP"
+- !private "s10MirrorPathP"
+- "9iSeeMovie0B18CollectionViewCellC"
+- !private "9iSeeMovie0B5ModelV"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "9iSeeMovie11PosterSizesO"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So11UIImageViewC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "9Alamofire14URLConvertibleP"
+- "9iSeeMovie23ValueCollectionViewCellC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/arm64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Modules/AlamofireNetworkActivityIndicator.swiftmodule/arm64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Modules/PromiseKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Headers/AlamofireNetworkActivityIndicator-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/PromiseKit-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/fwd.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/NSTask+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/NSURLSession+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/UIViewController+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/NSNotificationCenter+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/UIView+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/PMKFoundation.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Headers/AlamofireNetworkActivityIndicator-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/PMKUIKit.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphoneos/PromiseKit/PromiseKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "824eed9be2955c2bab074252e3c3fe37"

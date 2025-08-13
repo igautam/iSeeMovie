@@ -1,0 +1,386 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "__AnyPromise"
+provides-nominal:
+- "10PromiseKit05__AnyA0C"
+- "So10AnyPromiseC"
+provides-member:
+- ["10PromiseKit05__AnyA0C", ""]
+- ["So10AnyPromiseC", ""]
+- ["10PromiseKit0A0C", ""]
+- ["10PromiseKit0A0C", "init"]
+provides-dynamic-lookup:
+- "__catchOn"
+- "__ensureOn"
+- "__pending"
+- "__pipe"
+- "__thenOn"
+- "__value"
+depends-top-level:
+- !private "!"
+- "AnyPromise"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Box"
+- "CastingPrecedence"
+- "CatchMixin"
+- "DispatchQueue"
+- !private "EmptyBox"
+- !private "Error"
+- !private "NSError"
+- "NSObject"
+- "Promise"
+- "Result"
+- !private "StringLiteralType"
+- "Thenable"
+- "Void"
+- "__AnyPromise"
+depends-member:
+- ["So10AnyPromiseC", "Box"]
+- !private ["So10AnyPromiseC", "Error"]
+- !private ["So10AnyPromiseC", "NSError"]
+- ["So10AnyPromiseC", "Result"]
+- ["So10AnyPromiseC", "T"]
+- ["So10AnyPromiseC", "Thenable"]
+- ["So10AnyPromiseC", "Void"]
+- ["So10AnyPromiseC", "__AnyPromise"]
+- !private ["So10AnyPromiseC", "__value"]
+- ["So10AnyPromiseC", "box"]
+- !private ["So10AnyPromiseC", "d"]
+- ["So10AnyPromiseC", "deinit"]
+- ["So10AnyPromiseC", "init"]
+- ["So10AnyPromiseC", "pipe"]
+- ["So10AnyPromiseC", "result"]
+- !private ["So10AnyPromiseC", "value"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["10PromiseKit3BoxC", "init"]
+- !private ["10PromiseKit3BoxC", "inspect"]
+- !private ["10PromiseKit3BoxC", "seal"]
+- !private ["s7CVarArgP", "AnyPromise"]
+- !private ["s7CVarArgP", "EmptyBox"]
+- ["s7CVarArgP", "T"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "__AnyPromise"]
+- !private ["s7CVarArgP", "__pipe"]
+- !private ["s7CVarArgP", "__value"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "box"]
+- !private ["s7CVarArgP", "d"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "pipe"]
+- ["s7CVarArgP", "result"]
+- !private ["s7CVarArgP", "value"]
+- ["10PromiseKit10CatchMixinP", "T"]
+- ["10PromiseKit10CatchMixinP", ""]
+- !private ["10PromiseKit10CatchMixinP", "__AnyPromise"]
+- !private ["10PromiseKit10CatchMixinP", "__value"]
+- !private ["10PromiseKit10CatchMixinP", "box"]
+- !private ["10PromiseKit10CatchMixinP", "d"]
+- !private ["10PromiseKit10CatchMixinP", "init"]
+- ["10PromiseKit10CatchMixinP", "pipe"]
+- ["10PromiseKit10CatchMixinP", "result"]
+- !private ["10PromiseKit10CatchMixinP", "value"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AnyPromise"]
+- !private ["s28CustomDebugStringConvertibleP", "EmptyBox"]
+- ["s28CustomDebugStringConvertibleP", "T"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "__AnyPromise"]
+- !private ["s28CustomDebugStringConvertibleP", "__pipe"]
+- !private ["s28CustomDebugStringConvertibleP", "__value"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "box"]
+- !private ["s28CustomDebugStringConvertibleP", "d"]
+- !private ["s28CustomDebugStringConvertibleP", "fulfilled"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "pipe"]
+- !private ["s28CustomDebugStringConvertibleP", "rejected"]
+- ["s28CustomDebugStringConvertibleP", "result"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "fulfilled"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "rejected"]
+- ["s17CustomReflectableP", "some"]
+- !private ["s23CustomStringConvertibleP", "AnyPromise"]
+- !private ["s23CustomStringConvertibleP", "EmptyBox"]
+- ["s23CustomStringConvertibleP", "T"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "__AnyPromise"]
+- !private ["s23CustomStringConvertibleP", "__pipe"]
+- !private ["s23CustomStringConvertibleP", "__value"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "box"]
+- !private ["s23CustomStringConvertibleP", "d"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "pipe"]
+- ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "fulfilled"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "rejected"]
+- ["s9DecodableP", "some"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["10PromiseKit8EmptyBoxC", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "fulfilled"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "rejected"]
+- ["s9EncodableP", "some"]
+- !private ["s9EquatableP", "AnyPromise"]
+- !private ["s9EquatableP", "EmptyBox"]
+- ["s9EquatableP", "T"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "__AnyPromise"]
+- !private ["s9EquatableP", "__pipe"]
+- !private ["s9EquatableP", "__value"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "box"]
+- !private ["s9EquatableP", "d"]
+- !private ["s9EquatableP", "fulfilled"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "pipe"]
+- !private ["s9EquatableP", "rejected"]
+- ["s9EquatableP", "result"]
+- ["s9EquatableP", "some"]
+- !private ["s9EquatableP", "value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "fulfilled"]
+- !private ["s23ExpressibleByNilLiteralP", "rejected"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["10PromiseKit8HandlersC", "append"]
+- !private ["s8HashableP", "AnyPromise"]
+- !private ["s8HashableP", "EmptyBox"]
+- ["s8HashableP", "T"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "__AnyPromise"]
+- !private ["s8HashableP", "__pipe"]
+- !private ["s8HashableP", "__value"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "box"]
+- !private ["s8HashableP", "d"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "pipe"]
+- ["s8HashableP", "result"]
+- !private ["s8HashableP", "value"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSObjectC", "AnyPromise"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Box"]
+- ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "EmptyBox"]
+- !private ["So8NSObjectC", "Error"]
+- !private ["So8NSObjectC", "NSError"]
+- ["So8NSObjectC", "Result"]
+- ["So8NSObjectC", "T"]
+- ["So8NSObjectC", "Thenable"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "__AnyPromise"]
+- ["So8NSObjectC", "__catchOn"]
+- ["So8NSObjectC", "__ensureOn"]
+- ["So8NSObjectC", "__pending"]
+- ["So8NSObjectC", "__pipe"]
+- ["So8NSObjectC", "__thenOn"]
+- ["So8NSObjectC", "__value"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "box"]
+- ["So8NSObjectC", "d"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "pipe"]
+- ["So8NSObjectC", "result"]
+- !private ["So8NSObjectC", "value"]
+- !private ["So16NSObjectProtocolP", "AnyPromise"]
+- !private ["So16NSObjectProtocolP", "EmptyBox"]
+- ["So16NSObjectProtocolP", "T"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "__AnyPromise"]
+- !private ["So16NSObjectProtocolP", "__pipe"]
+- !private ["So16NSObjectProtocolP", "__value"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "box"]
+- !private ["So16NSObjectProtocolP", "d"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "pipe"]
+- ["So16NSObjectProtocolP", "result"]
+- !private ["So16NSObjectProtocolP", "value"]
+- !private ["So9OS_objectC", "async"]
+- !private ["Sq", "fulfilled"]
+- !private ["Sq", "rejected"]
+- ["Sq", "some"]
+- ["10PromiseKit0A0C", "AnyPromise"]
+- ["10PromiseKit0A0C", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10PromiseKit8ResolverC", "resolve"]
+- !private ["10PromiseKit6ResultO", "fulfilled"]
+- !private ["10PromiseKit6ResultO", "rejected"]
+- ["10PromiseKit7SealantO", "pending"]
+- ["10PromiseKit7SealantO", "resolved"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["10PromiseKit8ThenableP", "T"]
+- ["10PromiseKit8ThenableP", ""]
+- !private ["10PromiseKit8ThenableP", "__AnyPromise"]
+- !private ["10PromiseKit8ThenableP", "__value"]
+- !private ["10PromiseKit8ThenableP", "box"]
+- !private ["10PromiseKit8ThenableP", "d"]
+- !private ["10PromiseKit8ThenableP", "init"]
+- ["10PromiseKit8ThenableP", "pipe"]
+- ["10PromiseKit8ThenableP", "result"]
+- !private ["10PromiseKit8ThenableP", "value"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AnyPromise"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EmptyBox"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "T"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "__AnyPromise"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "__pipe"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "__value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "box"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "d"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "pipe"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "result"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "fulfilled"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "rejected"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s16_SwiftStringViewP", "init"]
+- ["10PromiseKit05__AnyA0C", "AnyPromise"]
+- ["10PromiseKit05__AnyA0C", "Bool"]
+- ["10PromiseKit05__AnyA0C", "Box"]
+- ["10PromiseKit05__AnyA0C", "DispatchQueue"]
+- !private ["10PromiseKit05__AnyA0C", "EmptyBox"]
+- !private ["10PromiseKit05__AnyA0C", "NSError"]
+- ["10PromiseKit05__AnyA0C", "Void"]
+- !private ["10PromiseKit05__AnyA0C", "__AnyPromise"]
+- ["10PromiseKit05__AnyA0C", "__catchOn"]
+- ["10PromiseKit05__AnyA0C", "__ensureOn"]
+- ["10PromiseKit05__AnyA0C", "__pending"]
+- ["10PromiseKit05__AnyA0C", "__pipe"]
+- ["10PromiseKit05__AnyA0C", "__thenOn"]
+- ["10PromiseKit05__AnyA0C", "__value"]
+- !private ["10PromiseKit05__AnyA0C", "box"]
+- ["10PromiseKit05__AnyA0C", "deinit"]
+- ["10PromiseKit05__AnyA0C", "init"]
+depends-nominal:
+- "So10AnyPromiseC"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "10PromiseKit3BoxC"
+- "s7CVarArgP"
+- "10PromiseKit10CatchMixinP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "10PromiseKit8EmptyBoxC"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "10PromiseKit8HandlersC"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So9OS_objectC"
+- "Sq"
+- "10PromiseKit0A0C"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10PromiseKit8ResolverC"
+- !private "10PromiseKit6ResultO"
+- "10PromiseKit7SealantO"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "10PromiseKit8ThenableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+- "10PromiseKit05__AnyA0C"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/Target Support Files/PromiseKit/PromiseKit-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Sources/fwd.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/Foundation/Sources/NSTask+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/UIKit/Sources/UIViewController+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/UIKit/Sources/UIView+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Sources/AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/Foundation/Sources/PMKFoundation.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/UIKit/Sources/PMKUIKit.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Sources/PromiseKit.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Pods.build/Debug-iphonesimulator/PromiseKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c05cbf447fe6ee893aab7a2845b392ab"

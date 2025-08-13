@@ -1,0 +1,401 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PosterSizes"
+- "BackdropSizes"
+- "ProfileSizes"
+- "StillSizes"
+- "ConfigurationManager"
+provides-nominal:
+- "9iSeeMovie11PosterSizesO"
+- "9iSeeMovie13BackdropSizesO"
+- "9iSeeMovie12ProfileSizesO"
+- "9iSeeMovie10StillSizesO"
+- "9iSeeMovie20ConfigurationManagerC"
+provides-member:
+- ["9iSeeMovie11PosterSizesO", ""]
+- ["9iSeeMovie13BackdropSizesO", ""]
+- ["9iSeeMovie12ProfileSizesO", ""]
+- ["9iSeeMovie10StillSizesO", ""]
+- ["9iSeeMovie20ConfigurationManagerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private ">"
+- !private "APIManager"
+- "AssignmentPrecedence"
+- "BackdropSizes"
+- "ConfigurationManager"
+- "ConfigurationModel"
+- "CountryModel"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "PosterSizes"
+- "ProfileSizes"
+- "StillSizes"
+- "String"
+- "StringLiteralType"
+- "Void"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["9iSeeMovie10APIManagerC", "fetchConfiguration"]
+- !private ["9iSeeMovie10APIManagerC", "fetchCountries"]
+- !private ["9iSeeMovie10APIManagerC", "sharedInstance"]
+- !private ["Sa", "count"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "iso31661Code"]
+- ["9iSeeMovie13BackdropSizesO", "RawValue"]
+- ["9iSeeMovie13BackdropSizesO", "_Default_RawValue"]
+- ["9iSeeMovie13BackdropSizesO", "deinit"]
+- ["9iSeeMovie13BackdropSizesO", "hashValue"]
+- ["9iSeeMovie13BackdropSizesO", "init"]
+- ["9iSeeMovie13BackdropSizesO", "rawValue"]
+- ["9iSeeMovie13BackdropSizesO", "w1280"]
+- ["9iSeeMovie13BackdropSizesO", "w300"]
+- ["9iSeeMovie13BackdropSizesO", "w780"]
+- ["9iSeeMovie13BackdropSizesO", "wOriginal"]
+- !private ["12ObjectMapper12BaseMappableP", "backdropSizes"]
+- !private ["12ObjectMapper12BaseMappableP", "baseUrl"]
+- !private ["12ObjectMapper12BaseMappableP", "englishName"]
+- !private ["12ObjectMapper12BaseMappableP", "images"]
+- !private ["12ObjectMapper12BaseMappableP", "iso31661Code"]
+- !private ["12ObjectMapper12BaseMappableP", "posterSizes"]
+- !private ["12ObjectMapper12BaseMappableP", "profileSizes"]
+- !private ["12ObjectMapper12BaseMappableP", "secureBaseUrl"]
+- !private ["12ObjectMapper12BaseMappableP", "stillSizes"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "filter"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "iso31661Code"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["10PromiseKit10CatchMixinP", "catch"]
+- !private ["10PromiseKit10CatchMixinP", "done"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "filter"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "iso31661Code"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["9iSeeMovie20ConfigurationManagerC", "APIManager"]
+- ["9iSeeMovie20ConfigurationManagerC", "BackdropSizes"]
+- ["9iSeeMovie20ConfigurationManagerC", "ConfigurationManager"]
+- ["9iSeeMovie20ConfigurationManagerC", "ConfigurationModel"]
+- ["9iSeeMovie20ConfigurationManagerC", "CountryModel"]
+- ["9iSeeMovie20ConfigurationManagerC", "PosterSizes"]
+- ["9iSeeMovie20ConfigurationManagerC", "ProfileSizes"]
+- ["9iSeeMovie20ConfigurationManagerC", "StillSizes"]
+- ["9iSeeMovie20ConfigurationManagerC", "String"]
+- ["9iSeeMovie20ConfigurationManagerC", "Void"]
+- !private ["9iSeeMovie20ConfigurationManagerC", "configurationModel"]
+- !private ["9iSeeMovie20ConfigurationManagerC", "countries"]
+- ["9iSeeMovie20ConfigurationManagerC", "currentCountryIndex"]
+- ["9iSeeMovie20ConfigurationManagerC", "deinit"]
+- ["9iSeeMovie20ConfigurationManagerC", "fetchConfiguration"]
+- ["9iSeeMovie20ConfigurationManagerC", "getBackdropImageSize"]
+- ["9iSeeMovie20ConfigurationManagerC", "getPosterImageSize"]
+- ["9iSeeMovie20ConfigurationManagerC", "getProfileImageSize"]
+- ["9iSeeMovie20ConfigurationManagerC", "getSecureBaseURL"]
+- ["9iSeeMovie20ConfigurationManagerC", "getSelectedCountry"]
+- ["9iSeeMovie20ConfigurationManagerC", "getStillImageSize"]
+- ["9iSeeMovie20ConfigurationManagerC", "imageURL"]
+- ["9iSeeMovie20ConfigurationManagerC", "init"]
+- !private ["9iSeeMovie20ConfigurationManagerC", "print"]
+- ["9iSeeMovie20ConfigurationManagerC", "sharedInstance"]
+- !private ["9iSeeMovie18ConfigurationModelV", "images"]
+- !private ["9iSeeMovie12CountryModelV", "englishName"]
+- !private ["9iSeeMovie12CountryModelV", "iso31661Code"]
+- !private ["s28CustomDebugStringConvertibleP", "catch"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "done"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "iso31661Code"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "iso31661Code"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "catch"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "done"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "iso31661Code"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "filter"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "filter"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "filter"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "iso31661Code"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "iso31661Code"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "rawValue"]
+- !private ["9iSeeMovie6ImagesV", "backdropSizes"]
+- !private ["9iSeeMovie6ImagesV", "baseUrl"]
+- !private ["9iSeeMovie6ImagesV", "posterSizes"]
+- !private ["9iSeeMovie6ImagesV", "profileSizes"]
+- !private ["9iSeeMovie6ImagesV", "secureBaseUrl"]
+- !private ["9iSeeMovie6ImagesV", "stillSizes"]
+- !private ["s22LazyCollectionProtocolP", "iso31661Code"]
+- !private ["s20LazySequenceProtocolP", "iso31661Code"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["12ObjectMapper8MappableP", "backdropSizes"]
+- !private ["12ObjectMapper8MappableP", "baseUrl"]
+- !private ["12ObjectMapper8MappableP", "englishName"]
+- !private ["12ObjectMapper8MappableP", "images"]
+- !private ["12ObjectMapper8MappableP", "iso31661Code"]
+- !private ["12ObjectMapper8MappableP", "posterSizes"]
+- !private ["12ObjectMapper8MappableP", "profileSizes"]
+- !private ["12ObjectMapper8MappableP", "secureBaseUrl"]
+- !private ["12ObjectMapper8MappableP", "stillSizes"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "filter"]
+- !private ["s17MutableCollectionP", "iso31661Code"]
+- !private ["s17MutableCollectionP", "subscript"]
+- ["9iSeeMovie11PosterSizesO", "RawValue"]
+- ["9iSeeMovie11PosterSizesO", "_Default_RawValue"]
+- ["9iSeeMovie11PosterSizesO", "deinit"]
+- ["9iSeeMovie11PosterSizesO", "hashValue"]
+- ["9iSeeMovie11PosterSizesO", "init"]
+- ["9iSeeMovie11PosterSizesO", "rawValue"]
+- ["9iSeeMovie11PosterSizesO", "w154"]
+- ["9iSeeMovie11PosterSizesO", "w185"]
+- ["9iSeeMovie11PosterSizesO", "w342"]
+- ["9iSeeMovie11PosterSizesO", "w500"]
+- ["9iSeeMovie11PosterSizesO", "w780"]
+- ["9iSeeMovie11PosterSizesO", "w92"]
+- ["9iSeeMovie11PosterSizesO", "wOriginal"]
+- ["9iSeeMovie12ProfileSizesO", "RawValue"]
+- ["9iSeeMovie12ProfileSizesO", "_Default_RawValue"]
+- ["9iSeeMovie12ProfileSizesO", "deinit"]
+- ["9iSeeMovie12ProfileSizesO", "h632"]
+- ["9iSeeMovie12ProfileSizesO", "hashValue"]
+- ["9iSeeMovie12ProfileSizesO", "init"]
+- ["9iSeeMovie12ProfileSizesO", "rawValue"]
+- ["9iSeeMovie12ProfileSizesO", "w185"]
+- ["9iSeeMovie12ProfileSizesO", "w45"]
+- ["9iSeeMovie12ProfileSizesO", "wOriginal"]
+- !private ["10PromiseKit0A0C", "catch"]
+- !private ["10PromiseKit0A0C", "done"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "filter"]
+- !private ["s22RandomAccessCollectionP", "iso31661Code"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "filter"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "iso31661Code"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "filter"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "iso31661Code"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s5SliceV", "iso31661Code"]
+- ["9iSeeMovie10StillSizesO", "RawValue"]
+- ["9iSeeMovie10StillSizesO", "_Default_RawValue"]
+- ["9iSeeMovie10StillSizesO", "deinit"]
+- ["9iSeeMovie10StillSizesO", "hashValue"]
+- ["9iSeeMovie10StillSizesO", "init"]
+- ["9iSeeMovie10StillSizesO", "rawValue"]
+- ["9iSeeMovie10StillSizesO", "w185"]
+- ["9iSeeMovie10StillSizesO", "w300"]
+- ["9iSeeMovie10StillSizesO", "w92"]
+- ["9iSeeMovie10StillSizesO", "wOriginal"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10PromiseKit8ThenableP", "catch"]
+- !private ["10PromiseKit8ThenableP", "done"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "iso31661Code"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "iso31661Code"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "9iSeeMovie10APIManagerC"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- "9iSeeMovie13BackdropSizesO"
+- !private "12ObjectMapper12BaseMappableP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "10PromiseKit10CatchMixinP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "9iSeeMovie20ConfigurationManagerC"
+- !private "9iSeeMovie18ConfigurationModelV"
+- !private "9iSeeMovie12CountryModelV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "9iSeeMovie6ImagesV"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "12ObjectMapper8MappableP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "9iSeeMovie11PosterSizesO"
+- "9iSeeMovie12ProfileSizesO"
+- !private "10PromiseKit0A0C"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s5SliceV"
+- "9iSeeMovie10StillSizesO"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10PromiseKit8ThenableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Modules/AlamofireNetworkActivityIndicator.swiftmodule/x86_64.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Modules/PromiseKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Headers/AlamofireNetworkActivityIndicator-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/fwd.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/NSTask+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/NSURLSession+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/UIViewController+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/NSNotificationCenter+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/UIView+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PMKFoundation.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Headers/AlamofireNetworkActivityIndicator-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PMKUIKit.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework/Modules/module.modulemap"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "19aacfd8d63220810efb8138311cfc74"

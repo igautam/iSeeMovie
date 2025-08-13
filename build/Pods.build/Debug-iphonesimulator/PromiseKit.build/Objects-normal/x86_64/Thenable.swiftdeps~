@@ -1,0 +1,274 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Thenable"
+provides-nominal:
+- "10PromiseKit8ThenableP"
+provides-member:
+- ["10PromiseKit8ThenableP", ""]
+- ["10PromiseKit8ThenableP", "then"]
+- ["10PromiseKit8ThenableP", "map"]
+- ["10PromiseKit8ThenableP", "compactMap"]
+- ["10PromiseKit8ThenableP", "done"]
+- ["10PromiseKit8ThenableP", "get"]
+- ["10PromiseKit8ThenableP", "asVoid"]
+- ["10PromiseKit8ThenableP", "error"]
+- ["10PromiseKit8ThenableP", "isPending"]
+- ["10PromiseKit8ThenableP", "isResolved"]
+- ["10PromiseKit8ThenableP", "isFulfilled"]
+- ["10PromiseKit8ThenableP", "isRejected"]
+- ["10PromiseKit8ThenableP", "value"]
+- ["10PromiseKit8ThenableP", "mapValues"]
+- ["10PromiseKit8ThenableP", "flatMapValues"]
+- ["10PromiseKit8ThenableP", "compactMapValues"]
+- ["10PromiseKit8ThenableP", "thenMap"]
+- ["10PromiseKit8ThenableP", "thenFlatMap"]
+- ["10PromiseKit8ThenableP", "filterValues"]
+- ["10PromiseKit8ThenableP", "firstValue"]
+- ["10PromiseKit8ThenableP", "firstValue"]
+- ["10PromiseKit8ThenableP", "lastValue"]
+- ["10PromiseKit8ThenableP", "sortedValues"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "!=="
+- !private "=="
+- "AnyObject"
+- "Bool"
+- "Collection"
+- "Comparable"
+- "DispatchQueue"
+- "DispatchWorkItemFlags"
+- "Error"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "PMKError"
+- "Promise"
+- "Result"
+- "Sequence"
+- "Thenable"
+- "Void"
+- !private "conf"
+- !private "when"
+depends-member:
+- !private ["Sa", "flatMap"]
+- !private ["s23BidirectionalCollectionP", "flatMap"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["10PromiseKit3BoxC", "seal"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "flatMap"]
+- !private ["10PromiseKit10CatchMixinP", "box"]
+- !private ["10PromiseKit10CatchMixinP", "init"]
+- !private ["10PromiseKit10CatchMixinP", "map"]
+- ["s10CollectionP", "Iterator"]
+- !private ["s10CollectionP", "endIndex"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "flatMap"]
+- !private ["s10CollectionP", "index"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "box"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "emptySequence"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "returnedSelf"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "async"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- ["s17CustomReflectableP", "none"]
+- ["s17CustomReflectableP", "some"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "box"]
+- !private ["s23CustomStringConvertibleP", "flatMap"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "async"]
+- !private ["s9DecodableP", "flatMap"]
+- ["s9DecodableP", "none"]
+- ["s9DecodableP", "some"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "async"]
+- !private ["s9EncodableP", "flatMap"]
+- ["s9EncodableP", "none"]
+- ["s9EncodableP", "some"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "flatMap"]
+- ["s9EquatableP", "none"]
+- !private ["s9EquatableP", "pending"]
+- ["s9EquatableP", "some"]
+- !private ["s5ErrorP", "compactMap"]
+- !private ["s5ErrorP", "emptySequence"]
+- !private ["s5ErrorP", "returnedSelf"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatMap"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s23ExpressibleByNilLiteralP", "async"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "pending"]
+- ["s16IteratorProtocolP", "Element"]
+- !private ["10Foundation14LocalizedErrorP", "compactMap"]
+- !private ["10Foundation14LocalizedErrorP", "emptySequence"]
+- !private ["10Foundation14LocalizedErrorP", "returnedSelf"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s17MutableCollectionP", "flatMap"]
+- !private ["Sq", "async"]
+- ["Sq", "none"]
+- ["Sq", "some"]
+- !private ["10PromiseKit16PMKConfigurationV", "Q"]
+- !private ["10PromiseKit8PMKErrorO", "compactMap"]
+- !private ["10PromiseKit8PMKErrorO", "deinit"]
+- !private ["10PromiseKit8PMKErrorO", "emptySequence"]
+- !private ["10PromiseKit8PMKErrorO", "returnedSelf"]
+- !private ["10PromiseKit25PMKUnambiguousInitializerO", "pending"]
+- !private ["10PromiseKit0A0C", "box"]
+- !private ["10PromiseKit0A0C", "deinit"]
+- !private ["10PromiseKit0A0C", "init"]
+- !private ["10PromiseKit0A0C", "map"]
+- !private ["s22RandomAccessCollectionP", "flatMap"]
+- !private ["s26RangeReplaceableCollectionP", "flatMap"]
+- ["10PromiseKit6ResultO", "fulfilled"]
+- ["10PromiseKit6ResultO", "rejected"]
+- ["s8SequenceP", "Iterator"]
+- !private ["s8SequenceP", "compactMap"]
+- !private ["s8SequenceP", "endIndex"]
+- !private ["s8SequenceP", "filter"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "flatMap"]
+- !private ["s8SequenceP", "index"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "sorted"]
+- !private ["s8SequenceP", "subscript"]
+- ["10PromiseKit8ThenableP", "Bool"]
+- ["10PromiseKit8ThenableP", "Collection"]
+- ["10PromiseKit8ThenableP", "Comparable"]
+- ["10PromiseKit8ThenableP", "DispatchQueue"]
+- ["10PromiseKit8ThenableP", "DispatchWorkItemFlags"]
+- ["10PromiseKit8ThenableP", "Error"]
+- !private ["10PromiseKit8ThenableP", "PMKError"]
+- ["10PromiseKit8ThenableP", "Promise"]
+- ["10PromiseKit8ThenableP", "Result"]
+- ["10PromiseKit8ThenableP", "Sequence"]
+- ["10PromiseKit8ThenableP", "T"]
+- ["10PromiseKit8ThenableP", "Thenable"]
+- ["10PromiseKit8ThenableP", "Void"]
+- ["10PromiseKit8ThenableP", "asVoid"]
+- !private ["10PromiseKit8ThenableP", "box"]
+- ["10PromiseKit8ThenableP", "compactMap"]
+- ["10PromiseKit8ThenableP", "compactMapValues"]
+- !private ["10PromiseKit8ThenableP", "conf"]
+- ["10PromiseKit8ThenableP", "done"]
+- ["10PromiseKit8ThenableP", "error"]
+- ["10PromiseKit8ThenableP", "filterValues"]
+- ["10PromiseKit8ThenableP", "firstValue"]
+- ["10PromiseKit8ThenableP", "flatMapValues"]
+- ["10PromiseKit8ThenableP", "get"]
+- !private ["10PromiseKit8ThenableP", "init"]
+- ["10PromiseKit8ThenableP", "isFulfilled"]
+- ["10PromiseKit8ThenableP", "isPending"]
+- ["10PromiseKit8ThenableP", "isRejected"]
+- ["10PromiseKit8ThenableP", "isResolved"]
+- ["10PromiseKit8ThenableP", "lastValue"]
+- ["10PromiseKit8ThenableP", "map"]
+- ["10PromiseKit8ThenableP", "mapValues"]
+- ["10PromiseKit8ThenableP", "pipe"]
+- ["10PromiseKit8ThenableP", "result"]
+- ["10PromiseKit8ThenableP", "sortedValues"]
+- ["10PromiseKit8ThenableP", "then"]
+- ["10PromiseKit8ThenableP", "thenFlatMap"]
+- ["10PromiseKit8ThenableP", "thenMap"]
+- ["10PromiseKit8ThenableP", "value"]
+- !private ["10PromiseKit8ThenableP", "when"]
+- !private ["s14_ArrayProtocolP", "flatMap"]
+- !private ["s24_DestructorSafeContainerP", "flatMap"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "async"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- ["s21_ObjectiveCBridgeableP", "none"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "10PromiseKit3BoxC"
+- !private "s7CVarArgP"
+- !private "10PromiseKit10CatchMixinP"
+- "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- !private "s8HashableP"
+- "s16IteratorProtocolP"
+- !private "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s17MutableCollectionP"
+- "Sq"
+- !private "10PromiseKit16PMKConfigurationV"
+- !private "10PromiseKit8PMKErrorO"
+- !private "10PromiseKit25PMKUnambiguousInitializerO"
+- !private "10PromiseKit0A0C"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "10PromiseKit6ResultO"
+- "s8SequenceP"
+- "10PromiseKit8ThenableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/Target Support Files/PromiseKit/PromiseKit-umbrella.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Sources/fwd.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/Foundation/Sources/NSTask+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/UIKit/Sources/UIViewController+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/UIKit/Sources/UIView+AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Sources/AnyPromise.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/Foundation/Sources/PMKFoundation.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Extensions/UIKit/Sources/PMKUIKit.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/Pods/PromiseKit/Sources/PromiseKit.h"
+- "/Users/tais/Desktop/Rajesh/Work/MyMovies/Personal/iSeeMovie/build/Pods.build/Debug-iphonesimulator/PromiseKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a71490568f6f02d0ee1efe4f4c646cd3"

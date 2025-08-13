@@ -1,0 +1,6 @@
+framework module Pods_iSeeMovie {
+  umbrella header "Pods-iSeeMovie-umbrella.h"
+
+  export *
+  module * { export * }
+}
