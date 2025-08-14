@@ -49,7 +49,7 @@ extension APIRouter {
     }
     
     var apiKey: String {
-        return "c5b952eaa394e8f87c92654aefde03a4"
+        return ""
     }
     
     var regionCode: String {
